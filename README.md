@@ -1,9 +1,11 @@
 🤖 JARVIS: Personal Voice Assistant
 
+
 <br>
 A simple yet powerful voice assistant built using Python. It uses AI to answer questions, helps with daily tasks like opening websites, and can even fetch the latest news for you.
 
 🌟 What can it do?
+
 <br>
 Talks to you: Uses AI (Groq/Llama 3.3) to give smart, witty answers like the real Jarvis.
 
@@ -18,6 +20,7 @@ Live News: Fetches the latest headlines from India.
 Memory: Remembers the last few things you talked about.
 
 🛠️ How to setup
+
 <br>
 Clone this folder to your computer.
 
@@ -26,14 +29,18 @@ pip install -r requirements.txt
 
 Add your API Keys in a .env file:
 
+
 GROQ_API_KEY
 
 NEWS_API_KEY
 
 Run the script:
+
+<br>
 python main3.py (or whichever version you are using).
 
 📂 Project Structure
+
 <br>
 main.py: The core engine of Jarvis.
 
@@ -44,6 +51,7 @@ jarvis_memory.json: Stores your chat history so Jarvis remembers you.
 .env: To keep your secret API keys safe.
 
 🚀 Future Plans
+
 <br>
 Adding Computer Vision to recognize faces.
 
